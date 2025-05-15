@@ -21,6 +21,7 @@
       background: linear-gradient(#242424, #a7a7a7);
       padding: 40px;
       border-radius: 32px;
+      box-shadow: 11px 11px 9px #0000002c;
 
       .image {
         width: 315px;
