@@ -1,0 +1,38 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: #474747;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1680px;
+  margin: auto;
+}
+
+.button {
+  padding: 10px 28px;
+  background: linear-gradient(#fff, #999);
+  border-radius: 32px;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}

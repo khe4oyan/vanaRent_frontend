@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/about.css">
   <title>Vana Rent</title>
 </head>
+
 <body>
-  
+
+  <header class="header" id="home">
+    <div class="content container">
+      <div class="navigationContainer">
+        <h1 class="headerText">VANA RENT</h1>
+
+        <nav class="navigation">
+          <a href="#home" class="link">Home</a>
+          <a href="#about" class="link">About</a>
+          <a href="#contacts" class="link">Contacts</a>
+        </nav>
+
+        <div class="actions">
+          <a href="#rentCar" class="button">Rent Car
+            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.5 12L7.95 10.6L11.5 14.15V2H13.5V14.15L17.05 10.6L18.5 12L12.5 18L6.5 12Z" fill="#111111" />
+            </svg>
+          </a>
+
+          <details class="language">
+            <summary>en</summary>
+            <div class="languages">
+              <a href="#">ru</a>
+              <a href="#">am</a>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+
+    <div class="imgContainer">
+      <img src="assets/img/headerBackground_car.png" alt="banner" class="image">
+      <h2 class="quality">Quality.</h2>
+    </div>
+  </header>
+
+  <section id="about" class="container">
+    <div class="header">
+      <h2>About</h2>
+    </div>
+  </section>
+  <section id="rentCar" class="container"></section>
+  <section id="contacts" class="container"></section>
+
+  <footer class="container"></footer>
 </body>
+
 </html>
