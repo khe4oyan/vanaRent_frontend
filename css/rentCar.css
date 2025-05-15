@@ -54,14 +54,20 @@
 
       .info {
         display: flex;
-        gap: 8px;
+        gap: 10px;
         object-fit: contain;
         margin-bottom: 16px;
 
         .carMark {
           height: 56px;
           width: 56px;
+          object-fit: contain;
+        }
+
+        .carMark_v2 {
           border-radius: 50%;
+          object-fit: contain;
+          background-color: #E5E5E5;
         }
 
         .mark {
