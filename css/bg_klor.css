@@ -1,0 +1,43 @@
+#backgroundKlorner {
+  position: relative;
+  max-width: 1680px;
+  margin: auto;
+  position: relative;
+
+  .circle {
+    --color: #090C10;
+    position: absolute;
+    background-color: var(--color);
+    border-radius: 50%;
+    left: 0;
+    filter: blur(150px);
+  }
+
+  .circle_1 {
+    width: 1036px;
+    height: 1010px;
+    top: 750px;
+    left: -300px;
+  }
+
+  .circle_2 {
+    width: 1036px;
+    height: 1289px;
+    top: 777px;
+    left: 1445px;
+  }
+
+  .circle_3 {
+    height: 770px;
+    width: 885px;
+    left: -163px;
+    top: 2826px;
+  }
+
+  .circle_4 {
+    width: 737px;
+    height: 689px;
+    top: 3767px;
+    left: 1437px;
+  }
+}
