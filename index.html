@@ -21,17 +21,31 @@
 </head>
 
 <body>
-  <div id="backgroundKlorner" class="cont">
+  <!-- <div id="backgroundKlorner" class="cont">
     <div class="circle circle_1"></div>
     <div class="circle circle_2"></div>
     <div class="circle circle_3"></div>
     <div class="circle circle_4"></div>
-  </div>
+  </div> -->
 
   <header class="header" id="home">
     <div class="content container">
       <div class="navigationContainer">
         <h1 class="headerText">VANA RENT</h1>
+
+        <nav class="nav_mobile">
+          <button class="burgerButton">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.5 15V13.3333H7.5V15H2.5ZM2.5 10.8333V9.16667H12.5V10.8333H2.5ZM2.5 6.66667V5H17.5V6.66667H2.5Z" fill="#E8EAED" />
+            </svg>
+          </button>
+
+          <div class="links hide">
+            <a href="#home" class="link">Home</a>
+            <a href="#about" class="link">About</a>
+            <a href="#contacts" class="link">Contacts</a>
+          </div>
+        </nav>
 
         <nav class="navigation">
           <a href="#home" class="link">Home</a>
@@ -59,7 +73,9 @@
 
     <div class="imgContainer">
       <img src="assets/img/headerBackground_car.png" alt="banner" class="image">
+      <h1 class="headerText_mobile">Vana Rent</h1>
       <h2 class="quality">Quality.</h2>
+      <a href="#rentCar" class="button button_mobile">Rent Car</a>
     </div>
   </header>
 
@@ -305,5 +321,7 @@
     </div>
   </footer>
 </body>
+
+<script src="js/main.js"></script>
 
 </html>

@@ -111,3 +111,13 @@
     color: white;
   }
 }
+
+@media (width < 1630px) {
+  #rentCar {
+    .cars {
+      width: fit-content;
+      margin: auto;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

@@ -26,6 +26,7 @@ img {
   z-index: 9999;
   max-width: 1680px;
   margin: auto;
+  padding: 0 10px;
 }
 
 .button {
@@ -38,4 +39,8 @@ img {
   justify-content: space-between;
   gap: 10px;
   width: fit-content;
+}
+
+.hide {
+  display: none !important;
 }
