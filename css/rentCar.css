@@ -1,6 +1,6 @@
 #rentCar {
   margin-top: 100px;
-  
+
   .sectionHeader {
     font-size: 48px;
     width: 100%;
@@ -34,6 +34,7 @@
         width: fit-content;
         margin: auto;
         display: grid;
+        align-items: center;
         grid-template-columns: repeat(3, 1fr);
         gap: 18px;
         margin-top: 16px;
@@ -112,11 +113,114 @@
   }
 }
 
-@media (width < 1630px) {
+@media (width < 1000px) {
   #rentCar {
     .cars {
       width: fit-content;
       margin: auto;
+      gap: 16px;
+
+      .car {
+        width: 148px;
+        background: linear-gradient(#242424, #a7a7a7);
+        padding: 8px;
+        border-radius: 24px;
+        box-shadow: 11px 11px 9px #0000002c;
+
+        .image {
+          width: 132px;
+          height: 123px;
+          border-radius: 32px;
+          object-fit: cover;
+        }
+
+        .klorner {
+          width: fit-content;
+          margin: auto;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 7px;
+          margin-top: 7px;
+          margin-bottom: 7px;
+
+          .klor {
+            border-radius: 50px;
+            width: 2px;
+            height: 2px;
+            background-color: white;
+          }
+
+          .klor_mec {
+            width: 5px;
+            height: 5px;
+            background-color: black;
+          }
+        }
+
+        .info {
+          display: flex;
+          gap: 10px;
+          object-fit: contain;
+          margin-bottom: 16px;
+
+          .carMark {
+            height: 24px;
+            width: 24px;
+            object-fit: contain;
+          }
+
+          .carMark_v2 {
+            border-radius: 50%;
+            object-fit: contain;
+            background-color: #E5E5E5;
+          }
+
+          .mark {
+            font-size: 12px;
+          }
+
+          .carInfo {
+            margin-top: 4px;
+            font-size: 8px;
+            color: #414141;
+          }
+        }
+
+        .priceContainer {
+          display: flex;
+          justify-content: flex-end;
+          margin: 8px 0;
+
+          p {
+            font-size: 10px;
+            font-weight: bold;
+
+            sup {
+              color: #52545C;
+            }
+          }
+        }
+
+        .button {
+          width: 100%;
+          height: 18px;
+          padding: 0;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 4px 2px 10px #000000ad;
+          font-weight: bold;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+
+@media (width < 700px) {
+  #rentCar {
+    .cars {
       grid-template-columns: repeat(2, 1fr);
     }
   }
