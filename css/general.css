@@ -44,3 +44,18 @@ img {
 .hide {
   display: none !important;
 }
+
+@media (width < 1000px) {
+  body {
+    background: #979797;
+  }
+  .container {
+    padding: 0 16px;
+  }
+
+  .sectionText, .sectionHeader {
+    font-size: 18px !important;
+    padding-bottom: 16px !important;
+    margin-bottom: 20px !important;
+  }
+}

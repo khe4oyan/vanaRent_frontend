@@ -41,3 +41,46 @@
     left: 1437px;
   }
 }
+
+@media (width < 1000px) {
+  #backgroundKlorner {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+
+    .circle {
+      --color: #090C10;
+      position: absolute;
+      background-color: var(--color);
+      border-radius: 50%;
+      left: 0;
+      filter: blur(100px);
+    }
+
+    .circle_1 {
+      width: 472px;
+      height: 455px;
+      top: 200px;
+      left: -200px;
+    }
+
+    .circle_2 {
+      width: 1036px;
+      height: 1289px;
+      top: 955px;
+      left: 152px;
+    }
+
+    .circle_3 {
+      height: 770px;
+      width: 885px;
+      left: -163px;
+      top: 2200px;
+    }
+
+    .circle_4 {
+      display: none;
+    }
+  }
+}
