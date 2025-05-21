@@ -66,12 +66,6 @@
           object-fit: contain;
         }
 
-        .carMark_v2 {
-          border-radius: 50%;
-          object-fit: contain;
-          background-color: #E5E5E5;
-        }
-
         .mark {
           font-size: 24px;
         }
@@ -167,12 +161,6 @@
             height: 24px;
             width: 24px;
             object-fit: contain;
-          }
-
-          .carMark_v2 {
-            border-radius: 50%;
-            object-fit: contain;
-            background-color: #E5E5E5;
           }
 
           .mark {
