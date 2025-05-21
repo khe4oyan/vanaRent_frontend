@@ -48,6 +48,7 @@ img {
 @media (width < 1000px) {
   body {
     background: #979797;
+    margin-bottom: 0px;
   }
   .container {
     padding: 0 16px;

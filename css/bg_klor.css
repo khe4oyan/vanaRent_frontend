@@ -1,8 +1,6 @@
 #backgroundKlorner {
-  position: relative;
   max-width: 1680px;
   margin: auto;
-  position: relative;
 
   .circle {
     --color: #090C10;
@@ -73,10 +71,7 @@
     }
 
     .circle_3 {
-      height: 770px;
-      width: 885px;
-      left: -163px;
-      top: 2200px;
+      display: none;
     }
 
     .circle_4 {

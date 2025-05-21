@@ -65,7 +65,9 @@
 
 @media (width < 1000px) {
   #footer {
+    background: url(../assets/img/Ellipse\ 40.png) no-repeat 100%;
     color: white;
+    display: flex;
 
     .line {
       height: 1px;
@@ -74,6 +76,7 @@
     }
 
     .copyrights {
+      padding: 34px 0;
       border-top: 1px solid white;
     }
 
@@ -144,7 +147,6 @@
       }
 
       .copyrights {
-        padding-top: 12px;
         font-size: 11px;
         font-weight: 300;
         margin-top: 24px;
