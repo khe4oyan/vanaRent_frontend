@@ -30,7 +30,7 @@
         object-fit: cover;
       }
 
-      .klorner {
+      .circlener {
         width: fit-content;
         margin: auto;
         display: grid;
@@ -40,14 +40,14 @@
         margin-top: 16px;
         margin-bottom: 16px;
 
-        .klor {
+        .circle {
           border-radius: 50px;
           width: 7px;
           height: 7px;
           background-color: white;
         }
 
-        .klor_mec {
+        .circle_mec {
           width: 14px;
           height: 14px;
           background-color: black;
@@ -128,7 +128,7 @@
           object-fit: cover;
         }
 
-        .klorner {
+        .circlener {
           width: fit-content;
           margin: auto;
           display: grid;
@@ -137,14 +137,14 @@
           margin-top: 7px;
           margin-bottom: 7px;
 
-          .klor {
+          .circle {
             border-radius: 50px;
             width: 2px;
             height: 2px;
             background-color: white;
           }
 
-          .klor_mec {
+          .circle_mec {
             width: 5px;
             height: 5px;
             background-color: black;

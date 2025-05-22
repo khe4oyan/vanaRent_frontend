@@ -1,4 +1,4 @@
-#backgroundKlorner {
+#backgroundcirclener {
   max-width: 1680px;
   margin: auto;
 
@@ -41,7 +41,7 @@
 }
 
 @media (width < 1000px) {
-  #backgroundKlorner {
+  #backgroundcirclener {
     position: relative;
     max-width: 100%;
     margin: auto;
