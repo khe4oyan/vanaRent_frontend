@@ -1,1 +1,1 @@
-# vanaRent_frontend
+# Vana Rent
