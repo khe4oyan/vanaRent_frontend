@@ -106,3 +106,99 @@
     color: white;
   }
 }
+
+@media (width < 400px) {
+  #rentCar {
+    margin-top: 32px;
+
+    .sectionHeader {
+      font-size: 18px;
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+    }
+
+    .cars {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      width: fit-content;
+      margin: auto;
+
+      .car {
+        width: 148px;
+        padding: 8px;
+        border-radius: 24px;
+
+        .image {
+          width: 132px;
+          height: 123px;
+          border-radius: 32px;
+          object-fit: cover;
+        }
+
+        .circlener {
+          gap: 8px;
+          margin-top: 7px;
+          margin-bottom: 7px;
+
+          .circle {
+            width: 3px;
+            height: 3px;
+          }
+
+          .circle_mec {
+            width: 6px;
+            height: 6px;
+          }
+        }
+
+        .info {
+          gap: 4px;
+          margin-bottom: 8px;
+
+          .carMark {
+            height: 24px;
+            width: 24px;
+            object-fit: contain;
+          }
+
+          .mark {
+            font-size: 12px;
+          }
+
+          .carInfo {
+            margin-top: 4px;
+            font-size: 8px;
+            font-weight: 300;
+          }
+        }
+
+        .priceContainer {
+          display: flex;
+          justify-content: flex-end;
+          margin: 8px 0 3px;
+
+          p {
+            font-weight: bold;
+            font-size: 10px;
+
+            /* sup {} */
+          }
+        }
+
+        .button {
+          padding: 4px;
+          border-radius: 16px;
+          font-size: 11px;
+        }
+        .button::after {
+          content: " Car";
+        }
+      }
+    }
+
+    .soon {
+      margin-top: 16px;
+      font-size: 12px;
+    }
+  }
+}
