@@ -6,10 +6,8 @@
 }
 
 body {
-  min-height: 100dvh;
   background-color: #474747;
   margin-bottom: 56px;
-  overflow-x: hidden;
 }
 
 a {
@@ -43,4 +41,10 @@ img {
 
 .hide {
   display: none !important;
+}
+
+@media (width < 400px) {
+  body {
+    margin-bottom: 0px;
+  }
 }
