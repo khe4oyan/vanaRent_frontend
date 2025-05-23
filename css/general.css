@@ -46,5 +46,6 @@ img {
 @media (width < 400px) {
   body {
     margin-bottom: 0px;
+    background: #959696;
   }
 }

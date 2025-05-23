@@ -66,7 +66,6 @@
 @media (width < 400px) {
   #footer {
     background: url("../assets/img/Ellipse\ 40.png") no-repeat 50% 50%;
-    background-size: 100%;
 
     .line {
       margin-top: 24px !important;
