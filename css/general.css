@@ -24,7 +24,7 @@ img {
   z-index: 9999;
   max-width: 1680px;
   margin: auto;
-  padding: 0 10px;
+  padding: 0 120px;
 }
 
 .button {
@@ -46,6 +46,11 @@ img {
 @media (width < 400px) {
   body {
     margin-bottom: 0px;
-    background: #959696;
+    /* background: #959696; */
+    background: linear-gradient(0deg, #ACACAC, #191A1D);
+  }
+
+  .container{
+    padding: 10px;
   }
 }
