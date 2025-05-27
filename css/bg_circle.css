@@ -1,4 +1,5 @@
 #backgroundcirclener {
+  /* max-width: 1680px; */
   margin: auto;
   position: relative;
 
@@ -24,6 +25,26 @@
     width: 885px;
     height: 770px;
     left: 0;
+  }
+}
+
+@media (width > 1920px) {
+  #backgroundcirclener {
+    .circle_1 {
+      width: 60%;
+      top: 0;
+    }
+
+    .circle_2 {
+      top: 0;
+      width: 60%;
+    }
+
+    .circle_3 {
+      top: 2500px;
+      width: 50%;
+      height: 1600px;
+    }
   }
 }
 
