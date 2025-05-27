@@ -56,6 +56,43 @@
   }
 }
 
+@media (width < 1250px) {
+  #about {
+    .about {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+
+      .img {
+        width: 100%;
+        height: initial;
+        aspect-ratio: 1/1;
+      }
+    }
+  }
+}
+
+@media (width < 850px) {
+  #about {
+    .about {
+      display: flex;
+      flex-direction: column;
+      gap: 0rem;
+
+      .img {
+        height: initial;
+        aspect-ratio: 19/10;
+      }
+    }
+
+    /* a {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+    } */
+  }
+}
+
 @media (width < 400px) {
   #about {
     .header {
