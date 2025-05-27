@@ -43,6 +43,18 @@ img {
   display: none !important;
 }
 
+@media (width < 1000px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+
+@media (width < 730px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
 @media (width < 400px) {
   body {
     margin-bottom: 0px;
