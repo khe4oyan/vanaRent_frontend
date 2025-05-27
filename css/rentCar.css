@@ -12,8 +12,8 @@
   }
 
   .cars {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 
     .car {
@@ -131,6 +131,7 @@
     }
 
     .cars {
+      display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 16px;
       width: fit-content;
