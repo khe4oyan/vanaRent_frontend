@@ -43,6 +43,12 @@ img {
   display: none !important;
 }
 
+@media (width > 2500px) {
+  body {
+    scale: 1.2;
+  }
+}
+
 @media (width < 1000px) {
   .container {
     padding: 0 60px;
@@ -62,7 +68,7 @@ img {
     background: linear-gradient(0deg, #ACACAC, #191A1D);
   }
 
-  .container{
+  .container {
     padding: 10px;
   }
 }

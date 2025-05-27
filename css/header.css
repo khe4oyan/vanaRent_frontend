@@ -107,6 +107,11 @@
   }
 }
 
+@media (width > 2500px) {
+  .navigationContainer {
+    margin-top: 21%;
+  }
+}
 
 @media (width < 1235px) {
   #home.header {
