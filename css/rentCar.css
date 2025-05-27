@@ -12,8 +12,8 @@
   }
 
   .cars {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 32px;
 
     .car {
@@ -119,6 +119,17 @@
     color: white;
   }
 }
+
+@media (width < 1830px) {
+  #rentCar {
+    .cars {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+}
+
 
 @media (width < 400px) {
   #rentCar {
