@@ -56,7 +56,7 @@
   }
 }
 
-@media (width < 1250px) {
+@media (width < 1480px) {
   #about {
     .about {
       grid-template-columns: repeat(2, 1fr);
