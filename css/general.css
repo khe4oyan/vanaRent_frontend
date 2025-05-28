@@ -43,11 +43,11 @@ img {
   display: none !important;
 }
 
-@media (width > 2500px) {
+/* @media (width > 2500px) {
   body {
     scale: 1.2;
   }
-}
+} */
 
 @media (width < 1000px) {
   .container {
