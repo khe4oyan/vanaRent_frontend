@@ -1,4 +1,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vanarent.am/sitemap.xml
+Sitemap: https://vanarent.am/sitemap-en.xml
+Sitemap: https://vanarent.am/sitemap-hy.xml
+Sitemap: https://vanarent.am/sitemap-ru.xml
