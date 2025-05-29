@@ -35,7 +35,7 @@
     }
 
     .contacts {
-      transform: translateY(70px);
+      transform: translateY(120px);
       width: 547px;
       /* height: inherit; */
       height: fit-content;
