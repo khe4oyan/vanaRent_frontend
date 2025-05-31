@@ -204,7 +204,7 @@
   }
 }
 
-@media (width < 400px) {
+@media (width < 700px) {
   #home.header {
     .content {
       .navigationContainer {
